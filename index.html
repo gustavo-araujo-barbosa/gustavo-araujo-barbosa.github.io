@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="Projetos de análise de dados, BI e automação. Explore o problema, a solução e, quando disponíveis, o código e as demonstrações.">
+<meta property="og:title" content="Gustavo Barbosa | Dados, BI e Automação">
+<meta property="og:description" content="Projetos de análise de dados, BI e automação. Explore o problema, a solução e, quando disponíveis, o código e as demonstrações.">
+<link rel="canonical" href="https://gustavo-araujo-barbosa.github.io/">
+<meta property="og:url" content="https://gustavo-araujo-barbosa.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://gustavo-araujo-barbosa.github.io/assets/portfolio-preview-blue.png">
+<meta property="og:image:alt" content="Portfólio de Gustavo Barbosa, com o fluxo de relatórios financeiros da Skyone.">
+<title>Gustavo Barbosa | Dados, BI e Automação</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#conteudo" data-en="Skip to content">Pular para o conteúdo</a>
+<header class="header">
+  <div class="wrap header-row">
+    <a class="brand" href="#inicio" aria-label="Gustavo Barbosa"><span class="monogram" aria-hidden="true">GB</span><span>Gustavo Barbosa</span></a>
+    <nav class="main-nav" aria-label="Navegação principal" data-en-label="Main navigation">
+      <a href="#projetos" data-en="Projects">Projetos</a>
+      <a href="#experiencia" data-en="Experience">Experiência</a>
+      <a class="contact-nav" href="#contato" data-en="Contact">Contato</a>
+    </nav>
+    <div class="language-switch" role="group" aria-label="Idioma" data-en-label="Language">
+      <button type="button" class="language" data-lang="pt" aria-pressed="true" aria-label="Português" lang="pt-BR">PT</button>
+      <button type="button" class="language" data-lang="en" aria-pressed="false" aria-label="English" lang="en">EN</button>
+    </div>
+  </div>
+</header>
+<main id="conteudo">
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow" data-en="Data analytics · BI · Automation">Análise de dados · BI · Automação</p>
+      <h1>Gustavo <em>Barbosa</em></h1>
+      <p class="lead" data-en="I build datasets, dashboards and reporting automations. In this portfolio, I show the problems behind each project, how I approached them and what I built.">Desenvolvo bases de dados, dashboards e automações de relatórios. Neste portfólio, mostro o problema por trás de cada projeto, como trabalhei nele e o que construí.</p>
+      <p class="hero-meta" data-en="FP&A Analyst at Skyone · Data Science at FIAP">Analista de FP&A na Skyone · Data Science na FIAP</p>
+      <div class="actions">
+        <a class="button primary" href="#projetos"><span data-en="Explore projects">Ver projetos</span><span aria-hidden="true">↘</span></a>
+        <a class="button ghost" href="https://github.com/gustavo-araujo-barbosa"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="hero-feature">
+      <div class="hero-feature-top" data-en="FINANCE REPORTING AT SKYONE">RELATÓRIOS FINANCEIROS NA SKYONE</div>
+      <div class="hero-proof"><strong>10+</strong><div><span data-en="reporting automations built">automações de relatórios criadas</span><small data-en="Less manual data extraction gives the finance team more time for analysis.">Com menos extração manual de dados, a equipe financeira ganha tempo para análise.</small></div></div>
+      <div class="flow">
+        <div><strong>SQL</strong><span data-en="Query and validate">Consultar e validar</span></div>
+        <div><strong>Power Query</strong><span data-en="Prepare for reporting">Preparar as bases</span></div>
+        <div><strong data-en="Reporting">Relatórios</strong><span data-en="Track business metrics">Acompanhar indicadores</span></div>
+      </div>
+      <a class="hero-case-link" href="#skyone"><span data-en="Explore the Skyone case">Ver o caso da Skyone</span><span aria-hidden="true">↘</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="projects wrap" id="projetos" aria-labelledby="projects-title">
+  <h2 id="projects-title" data-en="Projects">Projetos</h2>
+  <p class="section-intro" data-en="Explore the problem, the approach and the result of each project. Code and demos are linked where available.">Explore o problema, a abordagem e o resultado de cada projeto. Quando disponíveis, você encontra o código e a demonstração.</p>
+  <nav class="project-index" aria-label="Índice de projetos" data-en-label="Project index">
+    <a href="#skyone">
+      <span class="label" data-en="Professional case">Caso profissional</span>
+      <strong>Skyone</strong>
+      <span class="index-arrow" aria-hidden="true">↘</span>
+    </a>
+    <a href="#aceiro">
+      <span class="label" data-en="Academic prototype">Protótipo acadêmico</span>
+      <strong>Aceiro</strong>
+      <span class="index-arrow" aria-hidden="true">↘</span>
+    </a>
+    <a href="#finance-data-hub">
+      <span class="label" data-en="In development">Em desenvolvimento</span>
+      <strong>Finance Data Hub</strong>
+      <span class="index-arrow" aria-hidden="true">↘</span>
+    </a>
+  </nav>
+  <article id="skyone" class="project skyone-case">
+    <div class="project-copy">
+      <h3 data-en="Skyone · Automated datasets for financial analysis">Skyone · Automação de bases para análise financeira</h3>
+      <p data-en="The finance team manually extracted and consolidated SAP Business One data to prepare its analyses. I built and validated SQL views in SAP HANA and connected them to Excel through Power Query. The datasets are now refreshed on demand, and the team spends more time on financial analysis and decision support.">A equipe extraía e consolidava manualmente dados do SAP Business One para preparar as análises financeiras. Criei e validei views em SQL no SAP HANA e conectei as bases ao Excel via Power Query. Hoje, as bases são atualizadas sob demanda, e a equipe dedica mais tempo à análise financeira e ao apoio às decisões.</p>
+      <p data-en="Alongside Excel reporting, we maintain automated Power BI dashboards for financial KPIs.">Além dos relatórios em Excel, mantemos dashboards automatizados de indicadores financeiros no Power BI.</p>
+      <ul class="tags" aria-label="Tecnologias" data-en-label="Technologies"><li>SQL</li><li>SAP HANA</li><li>Power Query</li><li>Excel</li><li>Power BI</li></ul>
+    </div>
+    <div class="case-diagram">
+      <p class="label" data-en="Reporting workflow">Fluxo de relatórios</p>
+      <ol class="diagram-steps">
+        <li><span data-en="Source">Origem</span><strong>SAP Business One</strong></li>
+        <li><span data-en="Preparation">Preparação</span><strong data-en="SQL views in SAP HANA">Views SQL no SAP HANA</strong></li>
+        <li><span data-en="On-demand refresh">Atualização sob demanda</span><strong>Excel + Power Query</strong></li>
+      </ol>
+      <p class="case-result" data-en="This workflow is part of the 10+ reporting automations I've built at Skyone.">Esse fluxo faz parte das 10+ automações que criei no Financeiro.</p>
+    </div>
+  </article>
+  <article id="aceiro" class="project aceiro">
+    <div class="project-copy">
+      <p class="label" data-en="FIAP · Team project">FIAP · Projeto em equipe</p>
+      <h3>Aceiro</h3>
+      <p class="project-deck" data-en="Fire and drought monitoring in Pará, Brazil">Monitoramento de fogo e seca no Pará</p>
+      <p data-en="A prototype that turns public fire and drought data into municipal bulletins for family farming in Pará, Brazil. The technician’s dashboard helps review alerts, and the farmer’s view simulates how the bulletin would be delivered.">Protótipo que transforma dados públicos de fogo e seca em boletins municipais para a agricultura familiar no Pará. O painel do técnico ajuda a revisar alertas, e a visão do agricultor simula como o boletim chegaria ao produtor.</p>
+      <ul class="tags" aria-label="Tecnologias"><li>Python</li><li>Streamlit</li><li>PyDeck</li></ul>
+      <div class="project-actions">
+        <a class="text-link" href="https://github.com/gustavo-araujo-barbosa/aceiro-painel"><span data-en="View repository">Ver repositório</span> <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="aceiro-gallery">
+    <figure class="project-media">
+      <button type="button" data-preview="dashboard" class="image-button" aria-label="Ampliar painel do Aceiro" data-en-label="Enlarge Aceiro dashboard">
+        <img src="./assets/aceiro-dashboard.png" alt="Painel do técnico do Aceiro com mapa e alertas municipais" data-en-alt="Aceiro technician dashboard with a map and municipal alerts" width="1280" height="720" loading="lazy">
+        <span aria-hidden="true">⤢</span>
+      </button>
+      <figcaption data-en="Actual prototype screen · FIAP Global Solution · Raiz de Dados team">Tela do protótipo · FIAP Global Solution · Grupo Raiz de Dados</figcaption>
+    </figure>
+    <button class="gallery-preview sample-button" type="button" data-preview="bulletin">
+      <img src="./assets/aceiro-bulletin.png" alt="" width="1280" height="720" loading="lazy">
+      <span data-en="See farmer’s view">Ver visão do agricultor</span><span aria-hidden="true">↗</span>
+    </button>
+    </div>
+  </article>
+  <article id="finance-data-hub" class="project hub">
+    <div class="project-copy">
+      <p class="label" data-en="Personal project · In development">Projeto pessoal · Em desenvolvimento</p>
+      <h3>Finance Data Hub</h3>
+      <p class="project-deck" data-en="Traceable financial analysis using public data">Análises financeiras rastreáveis com dados públicos</p>
+      <p data-en="I’m exploring how to organize public financial statements from Brazil’s CVM so each analysis can be traced to the source and the rules used to transform it. The project includes a local application with synthetic data.">Exploro como organizar demonstrações financeiras públicas da CVM para rastrear cada análise até a fonte e as regras de transformação. O projeto inclui uma aplicação local com dados sintéticos.</p>
+      <ul class="tags" aria-label="Tecnologias" data-en-label="Technologies"><li>Python</li><li data-en="SQL (planned)">SQL (previsto)</li><li>DuckDB</li><li>dbt</li><li>Streamlit</li><li>Docker</li></ul>
+    </div>
+    <div class="hub-flow">
+      <p data-en="Data workflow under development">Fluxo de dados em desenvolvimento</p>
+      <ol>
+        <li><span>01</span><div><strong data-en="Public financial statements">Demonstrações públicas</strong><small>CVM</small></div></li>
+        <li><span>02</span><div><strong data-en="Preparation and modeling">Preparação e modelagem</strong><small>Python · DuckDB · dbt</small></div></li>
+        <li><span>03</span><div><strong data-en="Financial analysis">Análise financeira</strong><small data-en="Indicators and comparisons">Indicadores e comparações</small></div></li>
+      </ol>
+    </div>
+  </article>
+</section>
+
+<section class="experience" id="experiencia" aria-labelledby="experience-title">
+  <div class="wrap experience-grid">
+    <div>
+      <h2 id="experience-title" data-en="Data work in finance">Dados na prática em finanças</h2>
+      <p data-en="My background in accounting, finance and risk helps me understand business rules, validate data and build reports that people can use.">Minha experiência em contabilidade, finanças e risco me ajuda a entender regras de negócio, validar dados e construir relatórios que as equipes conseguem usar.</p>
+    </div>
+    <div class="roles">
+      <article><p class="label">Skyone</p><h3 data-en="FP&A Analyst">Analista de FP&A</h3><p data-en="I build and validate SQL views in SAP HANA, prepare reporting datasets in Excel with Power Query, and maintain automated Power BI dashboards for financial KPIs.">Crio e valido views SQL no SAP HANA, preparo bases para relatórios no Excel com Power Query e mantenho dashboards automatizados de indicadores financeiros no Power BI.</p></article>
+      <article><p class="label">Itaú Unibanco</p><h3 data-en="Risk & Internal Controls Intern">Estágio em Riscos e Controles Internos</h3><p data-en="I contributed to a Power BI dashboard that managers used to track the team’s workload and deadlines.">Contribuí para um dashboard em Power BI usado por gestores para acompanhar demandas e prazos da equipe.</p></article>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="contato">
+  <div class="wrap footer-row">
+    <div><h2 data-en="Contact">Contato</h2><p>Gustavo Barbosa</p></div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/gustavo-de-araujo-barbosa/">LinkedIn ↗</a>
+      <a href="https://github.com/gustavo-araujo-barbosa">GitHub ↗</a>
+    </div>
+  </div>
+</footer>
+
+<dialog id="preview" aria-labelledby="preview-title">
+  <form method="dialog"><h2 id="preview-title"></h2><button type="submit" class="dialog-close" aria-label="Fechar imagem" data-en-label="Close image">×</button></form>
+  <img alt="" id="preview-image">
+  <p class="preview-note" data-en="Screenshot of the academic prototype. Bulletin delivery is simulated.">Captura do protótipo acadêmico. O envio de boletins é simulado.</p>
+</dialog>
+</body>
+</html>
